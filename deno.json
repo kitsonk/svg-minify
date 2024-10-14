@@ -1,0 +1,16 @@
+{
+  "name": "@kitsonk/svg-minify",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./mod.ts"
+  },
+  "exclude": [
+    "./test.ts",
+    "./_fixtures"
+  ],
+  "lock": false,
+  "tasks": {
+    "test": "deno test --allow-read=. --allow-write=."
+  },
+  "imports": { "@std/path": "jsr:@std/path@^1.0.6", "svgo": "npm:svgo@^3.3.2" }
+}
