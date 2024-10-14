@@ -10,6 +10,7 @@
   ],
   "lock": false,
   "tasks": {
+    "check": "deno fmt --check && deno lint && deno check **/*.ts",
     "test": "deno test --allow-read=. --allow-write=."
   },
   "imports": { "@std/path": "jsr:@std/path@^1.0.6", "svgo": "npm:svgo@^3.3.2" }
