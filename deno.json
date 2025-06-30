@@ -1,6 +1,6 @@
 {
   "name": "@kitsonk/svg-minify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": {
     ".": "./mod.ts"
   },
@@ -13,5 +13,5 @@
     "check": "deno fmt --check && deno lint && deno check **/*.ts",
     "test": "deno test --allow-read=. --allow-write=."
   },
-  "imports": { "@std/path": "jsr:@std/path@^1.0.6", "svgo": "npm:svgo@^3.3.2" }
+  "imports": { "@std/path": "jsr:@std/path@^1.0.6", "svgo": "npm:svgo@^4.0.0" }
 }
